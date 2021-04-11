@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 16%;
+    margin-left: auto;
+    padding: 1em;
+}
+nav a{
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5mm ;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;
+}
+main{
+    width: 50%;
+    margin: 6.3212em auto;
+    text-align: center;
+}
+input{
+    width: 80%;
+    padding: 0.9em;
+    border-radius: 29px;
+    border: 1px solid rgb(211, 208, 208);
+}
+.Buttons_container{
+    margin-top: 2em;
+}
+.Buttons_container button{
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(245, 245, 245);
+
+}
+.footer_top{
+    padding: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.footer_bottom{
+    padding: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid rgb(230, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+    
+
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
